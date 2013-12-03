@@ -1,0 +1,108 @@
+@import url('demo.css');
+
+/* ============================= */
+ label {
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    padding:3px 0;
+}
+ input[type="checkbox"],
+ input[type="radio"]{
+     display: none;
+}
+  .ccbx span { 
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    float: left;
+    position: relative;
+    top:1px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    -webkit-transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -ms-transition: all .50s ease-in-out;
+    -o-transition: all .50s ease-in-out;
+    transition: all .50s ease-in-out;
+}
+.ccbx:hover span { border-color: #25303c; }
+.ccbx.checked span   { background-color: #25303c; border-color: #25303c; }
+
+.ccbx.disabled,
+.crbtn.disabled { color: #ddd; }
+
+.ccbx.disabled span,
+.crbtn.disabled span,
+.ccbx.disabled:hover span { border-color: #ddd; }
+label.disabled,
+label.disabled * { cursor:default; }
+
+.ccbx.checked.disabled span { background-color: #ddd; }
+.crbtn.pushed.disabled span i { box-shadow:inset 0 0 9px #ddd; }
+
+.ccbx i {
+    background: url('https://dl.dropboxusercontent.com/u/70204595/cdn/images/ccbx.png') no-repeat center center;
+    position: absolute;
+    left: 2px;
+    bottom: -20px;
+    width: 16px;
+    height: 16px;
+    opacity: 0;
+    -webkit-transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -ms-transition: all .50s ease-in-out;
+    -o-transition: all .50s ease-in-out;
+    transition: all .50s ease-in-out;
+    -webkit-transform:rotateZ(-180deg);
+    -moz-transform:rotateZ(-180deg);
+    -o-transform:rotateZ(-180deg);
+    transform:rotateZ(-180deg);
+}
+
+.ccbx.checked span i {
+    bottom: 1px;
+    opacity: 1;
+    -webkit-transform:rotateZ(0deg);
+    -moz-transform:rotateZ(0deg);
+    -o-transform:rotateZ(0deg);
+    transform:rotateZ(0deg);
+}
+
+.crbtn span {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    margin: 0 5px 0 0;
+    position: relative;
+    border-radius: 100%;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.crbtn span i {
+    background-color:transparent;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    border-radius: 100%;
+    -webkit-transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -ms-transition: all .50s ease-in-out;
+    -o-transition: all .50s ease-in-out;
+    transition: all .50s ease-in-out;
+}
+ .crbtn.pushed span i {
+    box-shadow:inset 0 0 9px #25303c;
+}
