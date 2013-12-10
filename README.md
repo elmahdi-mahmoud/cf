@@ -23,8 +23,7 @@ Custom checkbox and radio buttons v2.
 
 ## Usage 
 
-1.Include .css file
-
+##### Include .css file
 ```html
 <!-- Minified Version -->
 <link rel="stylesheet" type="text/css" href="assets/css/cf.min.css">
@@ -32,8 +31,7 @@ Custom checkbox and radio buttons v2.
 > or you can include un-minified version `cf.css`
 
 
-2. Include .js file
-
+##### Include .js file
 ```html
 <!-- minified js -->
 <script src="assets/js/cf.min.js"></script> 
