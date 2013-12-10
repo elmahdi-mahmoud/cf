@@ -142,3 +142,101 @@ cf/
 </form>
 ```
 
+### HTML radio buttons options:
+
+##### Default:
+```html
+<form class="cf">
+      <fieldset>
+            <label for="def" class="crbtn">
+                  <input type="radio" name="def" />
+                  Radiobutton 
+            </label>
+      </fieldset>
+</form>
+```
+
+##### Checked:
+```html
+<form class="cf">
+      <fieldset>
+            <label for="chkd" class="crbtn">
+                  <input type="radio" name="chkd" checked="checked"/>
+                  Checked 
+            </label>
+      </fieldset>
+</form>
+```
+
+##### Disabled:
+```html
+<form class="cf">
+      <fieldset>
+            <label for="dsbld" class="crbtn">
+                  <input type="radio" name="dsbld" disabled/>
+                  Disabled 
+            </label>
+      </fieldset>
+</form>
+```
+
+##### Checked Disabled:
+```html
+<form class="cf">
+      <fieldset>
+            <label for="chkDsbld" class="crbtn">
+                  <input type="radio" name="chkDsbld" disabled  checked="checked" />
+                  Checked - Disabled 
+            </label>
+      </fieldset>
+</form>
+```
+
+##### All in one block:
+```html
+<form class="cf">
+      <fieldset>
+            <ul>
+            <li>
+            <label for="adef" class="crbtn">
+                  <input type="radio" name="adef" />
+                  Radiobutton 
+            </label>
+            </li>
+            
+            <li>
+            <label for="achkd" class="crbtn">
+                  <input type="radio" name="achkd" checked="checked"/>
+                  Checked 
+            </label>
+            </li>
+            
+            <li>
+            <label for="adsbld" class="crbtn">
+                  <input type="radio" name="adsbld" disabled/>
+                  Disabled 
+            </label>
+            </li>
+            
+            <li>
+            <label for="adsbldachkd" class="crbtn">
+                  <input type="radio" name="adsbldachkd" disabled checked="checked"/>
+                  Checked - Disabled 
+            </label>
+            </li>
+            
+            </ul>
+      </fieldset>
+</form>
+```
+
+##### Fire:
+```html
+<script>
+(function($) {
+    $(document).ready(function() {
+        $('.cf').cf();
+    });
+})(jQuery);
+</script> 
+```
