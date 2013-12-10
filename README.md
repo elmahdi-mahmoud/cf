@@ -11,7 +11,6 @@ Custom checkbox and radio buttons v2.
 * [Full Demo](http://codepen.io/ElmahdiMahmoud/full/etvzG)
 * [Details Demo](http://codepen.io/ElmahdiMahmoud/details/etvzG)
 
-## Features
 ### Browser compatibility
 
 * Chrome
