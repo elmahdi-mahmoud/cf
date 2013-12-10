@@ -79,6 +79,7 @@ cf/
             </label>
       </fieldset>
 </form>
+```
 
 ##### Disabled:
 ```html
@@ -100,6 +101,43 @@ cf/
                   <input type="checkbox" name="chkDsbld" checked="checked"  disabled />
                   Checked - Disabled 
             </label>
+      </fieldset>
+</form>
+```
+
+##### All in one block:
+```html
+<form class="cf">
+      <fieldset>
+            <ul>
+                  <li>
+                  <label for="def" class="ccbx">
+                        <input type="checkbox" name="def" />
+                        Checkbox 
+                  </label>
+                  </li>
+                  
+                  <li>
+                  <label for="chkd" class="ccbx">
+                        <input type="checkbox" name="chkd" checked="checked" />
+                        Checked 
+                  </label>
+                  </li>
+                  
+                  <li>
+                  <label for="dsbld" class="ccbx">
+                        <input type="checkbox" name="dsbld" disabled />
+                        Disabled 
+                  </label>
+                  </li>
+                  
+                  <li>
+                  <label for="chkDsbld" class="ccbx">
+                        <input type="checkbox" name="chkDsbld" checked="checked"  disabled />
+                        Checked - Disabled 
+                  </label>
+                  </li>
+            </ul>
       </fieldset>
 </form>
 ```
