@@ -10,3 +10,14 @@ Custom checkbox and radio buttons v2.
 
 * [Full Demo](http://codepen.io/ElmahdiMahmoud/full/etvzG)
 * [Details Demo](http://codepen.io/ElmahdiMahmoud/details/etvzG)
+
+## Features
+### Browser compatibility
+---
+* Chrome
+* Safari
+* Firefox
+* Opera
+* IE8+
+
+> OS tested on: Windows 7 , OS X Lion , Ubuntu
