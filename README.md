@@ -55,16 +55,52 @@ cf/
 <script src="assets/js/cf.min.js"></script> 
 ```
 
-### Checkbox options:
+### HTML checkbox options:
 
 ##### Default:
 ```html
 <form class="cf">
       <fieldset>
-      <label for="def" class="ccbx">
-            <input type="checkbox" name="def" />
-            Checkbox 
-      </label>
+            <label for="default" class="ccbx">
+                  <input type="checkbox" name="default" />
+                  Checkbox 
+            </label>
       </fieldset>
 </form>
 ```
+
+##### Checked:
+```html
+<form class="cf">
+      <fieldset>
+            <label for="chkd" class="ccbx">
+                  <input type="checkbox" name="chkd" checked="checked" />
+                  Checked 
+            </label>
+      </fieldset>
+</form>
+
+##### Disabled:
+```html
+<form class="cf">
+      <fieldset>
+            <label for="dsbld" class="ccbx">
+                  <input type="checkbox" name="dsbld" disabled />
+                  Disabled 
+            </label>
+      </fieldset>
+</form>
+```
+
+##### Checked Disabled:
+```html
+<form class="cf">
+      <fieldset>
+            <label for="chkDsbld" class="ccbx">
+                  <input type="checkbox" name="chkDsbld" checked="checked"  disabled />
+                  Checked - Disabled 
+            </label>
+      </fieldset>
+</form>
+```
+
