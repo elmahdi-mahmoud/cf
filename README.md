@@ -31,6 +31,7 @@ Custom checkbox and radio buttons v2.
 ```
 > or you can include un-minified version `cf.css`
 
+
 2. Include .js file
 
 ```html
