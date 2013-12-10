@@ -40,18 +40,31 @@ cf/
 
 ## Getting Started
 
-#### Usage
+#### Include .css and .js files:
 
-##### CSS: Include `assets/css/cf.min.css` OR `assets/css/cf.css`
+##### CSS: `assets/css/cf.min.css` OR `assets/css/cf.css`
 ```html
 <!-- minified css version -->
 <link rel="stylesheet" type="text/css" href="assets/css/cf.min.css">
 <!-- Optional: customize css your own way -->
 <link rel="stylesheet" type="text/css" href="assets/css/custom-skin-cf.css"> 
 ```
-##### JS: Include `assets/js/cf.min.js` OR `assets/js/cf.js`
+##### JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 ```html
 <!-- minified js version -->
 <script src="assets/js/cf.min.js"></script> 
 ```
 
+### Checkbox options:
+
+##### Default:
+```html
+<form class="cf">
+      <fieldset>
+      <label for="def" class="ccbx">
+            <input type="checkbox" name="def" />
+            Checkbox 
+      </label>
+      </fieldset>
+</form>
+```
