@@ -25,15 +25,17 @@ Custom checkbox and radio buttons v2.
 
 ##### Include .css file
 ```html
-<!-- Minified Version -->
+<!-- minified css version -->
 <link rel="stylesheet" type="text/css" href="assets/css/cf.min.css">
+<!-- Optional: customize css your own way -->
+<link rel="stylesheet" type="text/css" href="assets/css/custom-skin-cf.css"> 
 ```
 > or you can include un-minified version `cf.css`
 
 
 ##### Include .js file
 ```html
-<!-- minified js -->
+<!-- minified js version -->
 <script src="assets/js/cf.min.js"></script> 
 ```
 > or you can include un-minified version `cf.js`
