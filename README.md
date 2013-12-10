@@ -13,7 +13,7 @@ Custom checkbox and radio buttons v2.
 
 ## Features
 ### Browser compatibility
----
+
 * Chrome
 * Safari
 * Firefox
