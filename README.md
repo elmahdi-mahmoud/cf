@@ -21,7 +21,26 @@ Custom checkbox and radio buttons v2.
 
 > OS tested on: Windows 7 , OS X Lion , Ubuntu
 
-## Usage 
+### Plugin Structure
+
+```
+cf/
+├── assets/
+├──── css/
+│     ├── cf.css
+│     ├── cf.min.css
+│     ├── custom-skin-cf.css
+│     └── demo.css
+├──── img/
+│     └── ccbx.png
+└──── js/
+      ├── cf.js
+      └── cf.min.js
+```
+
+## Getting Started
+
+#### Usage
 
 ##### CSS: Include `assets/css/cf.min.css` OR `assets/css/cf.css`
 ```html
