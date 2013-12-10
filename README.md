@@ -20,3 +20,16 @@ Custom checkbox and radio buttons v2.
 * IE8+
 
 > OS tested on: Windows 7 , OS X Lion , Ubuntu
+
+## Usage 
+
+Include CSS
+---
+```html
+<!-- Minified Version -->
+<link rel="stylesheet" type="text/css" href="assets/css/cf.min.css">
+```
+> or you can include un-minified version `cf.css`
+
+
+
