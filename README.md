@@ -17,21 +17,22 @@ Custom checkbox and radio buttons v2.
 * [Browser compatibility](#browser-compatibility)
 * [Plugin Structure](#plugin-structure)
 * [Getting Started](#getting-started)
-  * [Include required files `.css` and `.js`*](#include-css-and-js-files)
+  * [Include required files `.css` and `.js`](#include-css-and-js-files)
   * [HTML](#html)
-    * [Checkbox options](#checkbox-options)
+    * [Checkbox options:](#checkbox-options)
       * [Default](#default)
       * [Checked](#checked)
       * [Disabled](#disabled)
       * [Checked Disabled](#checked-disabled)
       * [All in one block](#all-in-one-block)
-    * [Radio buttons options](#radio-buttons-options)
+    * [Radio buttons options:](#radio-buttons-options)
       * [Default](#default-1)
       * [Checked](#checked-1)
       * [Disabled](#disabled-1)
       * [Checked Disabled](#checked-disabled-1)
       * [All in one block](#all-in-one-block-1)
   * [Javascript](#javascript)
+* [Re-customize css your own way](#customize-css-your-own-way)  
 
 ## Demo
 
@@ -257,13 +258,13 @@ JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 </form>
 ```
 
-##### Fire:
-```html
-<script>
+### Javascript:
+```javascript
 (function($) {
     $(document).ready(function() {
         $('.cf').cf();
     });
 })(jQuery);
-</script> 
 ```
+
+## Re-customize css your own way
