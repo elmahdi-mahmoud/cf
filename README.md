@@ -74,8 +74,6 @@ CSS: `assets/css/cf.min.css` OR `assets/css/cf.css`
 ```html
 <!-- minified css version -->
 <link rel="stylesheet" type="text/css" href="assets/css/cf.min.css">
-<!-- Optional: customize css your own way -->
-<link rel="stylesheet" type="text/css" href="assets/css/custom-skin-cf.css"> 
 ```
 JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 ```html
@@ -269,9 +267,18 @@ JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 
 ## Re-customize css your own way
 
-> Note: You don't have to use `!important!`
+Required for customize implementation you have to include the following [stylesheet](assets/css/custom-skin-cf.css) file:
+
+```html
+<link rel="stylesheet" type="text/css" href="assets/css/custom-skin-cf.css"> 
+```
 
 ```css
+/*
+ * The default value declared within a comment side to each property.
+ * Note: You don't have to use "important!"
+ */
+
 /*=== CHECKBOX ============================*/
 /* default */
 label.ccbx span { 
