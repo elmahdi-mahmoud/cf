@@ -267,23 +267,28 @@ JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 
 ## Re-customize css your own way
 
-Required for customize implementation you have to include the following [stylesheet](assets/css/custom-skin-cf.css) file:
+Required to implement `css` style your way. You have to include the following [stylesheet](assets/css/custom-skin-cf.css) file:
 
 ```html
 <link rel="stylesheet" type="text/css" href="assets/css/custom-skin-cf.css"> 
 ```
+> Recommend to include right after `cf.css`
 
-The `custom-skin-cf.css` contains an empty css rules, for `width` , `height` , `colors` , `margin` and `checkmark` so you can modify the way you like.
+The `custom-skin-cf.css` contains an empty css rules to modify `width` , `height` , `colors` , `margin` and `checkmark-icon`.
 
 
 ```css
 /*
  * The default value declared within a comment side to each property.
- * Note: You don't have to use "important!"
+ *
+ * TODO: Do not use 'important!'
  */
 
-/*=== CHECKBOX ============================*/
-/* default */
+/* ==========================================================================
+   Checkbox rules
+   ========================================================================== */
+
+/* case: default */
 label.ccbx span { 
     width: ;        /* 16px */
     height: ;       /* 16px */
@@ -291,32 +296,35 @@ label.ccbx span {
     border-color: ; /* #ccc */
 }
 
-/* default:hover */
+/* case: default:hover */
 label.ccbx:hover span { border-color: ; } /* #25303c */
 
-/* disabled */
+/* case: disabled */
 label.ccbx.disabled              { color: ; }            /* #ddd */
 label.ccbx.disabled span         { border-color: ; }     /* #ddd */
 label.ccbx.checked.disabled span { background-color: ; } /* #ddd */
 
-/* disabled:hover */
+/* case: disabled:hover */
 label.ccbx.disabled:hover span   { border-color: ; } /* #ddd */
 
-/* active */
+/* case: active */
 label.ccbx.checked span { 
     background-color: ; /* #25303c */
     border-color: ;     /* #25303c */
 }
 
-/* checkmark */
+/* checkmark-icon (✔) */
 label.ccbx i {
     background: ; /* url('') */
     width: ;      /* 16px */
     height: ;     /* 16px */
 }
 
-/*=== RADIOBUTTON =========================*/
-/* default */
+/* ==========================================================================
+   Radio buttons rules
+   ========================================================================== */
+
+/* case: default */
 label.crbtn span {
     width: ;  /* 17px */
     height: ; /* 17px */
@@ -329,11 +337,11 @@ label.crbtn span i {
     height: ; /* 11px */
 }
 
-/* disabled */
+/* case: disabled */
 label.crbtn.disabled               { color: ; } /* #ddd */
 label.crbtn.disabled span          { border-color: ; } /* #ddd */
 label.crbtn.pushed.disabled span i { box-shadow:; } /* inset 0 0 9px #ddd */
 
-/* active */
+/* case: active */
 label.crbtn.pushed span i { box-shadow: ; } /* inset 0 0 9px #25303c */
 ```
