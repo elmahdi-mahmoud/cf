@@ -17,7 +17,7 @@ Custom checkbox and radio buttons v2.
 * [Browser compatibility](#browser-compatibility)
 * [Plugin Structure](#plugin-structure)
 * [Getting Started](#getting-started)
-  * [Include required files`](#include-required-files)
+  * [Include required files](#include-required-files)
   * [HTML](#html)
     * [Checkbox options:](#checkbox-options)
       * [Default](#default)
@@ -177,7 +177,7 @@ You can clone with:
 
 ### HTML radio buttons options:
 
-> TODO: add class `crbtn` to `label` tag for custom checkbox.
+> TODO: add class `crbtn` to `label` tag for custom radio button.
 
 ##### Default:
 ```html
