@@ -32,7 +32,7 @@ Custom checkbox and radio buttons v2.
       * [Checked Disabled](#checked-disabled-1)
       * [All in one block](#all-in-one-block-1)
   * [Javascript usage](#javascript)
-* [Re-customize css your own way](#re-customize-css-your-own-way) 
+* [CSS: re-customize css your own way](#re-customize-css-your-own-way) 
 * [Translations](#translations)
 * [License](#license)
 
