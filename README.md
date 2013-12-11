@@ -31,8 +31,9 @@ Custom checkbox and radio buttons v2.
       * [Disabled](#disabled-1)
       * [Checked Disabled](#checked-disabled-1)
       * [All in one block](#all-in-one-block-1)
-  * [Javascript](#javascript)
-* [Re-customize css your own way](#re-customize-css-your-own-way)  
+  * [Javascript usage](#javascript)
+* [Re-customize css your own way](#re-customize-css-your-own-way) 
+* [Translations](#translations)
 
 ## Demo
 
@@ -256,7 +257,7 @@ JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 </form>
 ```
 
-### Javascript:
+### Javascript usage:
 ```javascript
 (function($) {
     $(document).ready(function() {
@@ -279,7 +280,7 @@ The `custom-skin-cf.css` contains an empty css rules to modify `width` , `height
 
 ```css
 /*
- * The default value declared within a comment side to each property.
+ * The default values declared within a comment side to each property.
  *
  * TODO: Do not use 'important!'
  */
@@ -345,3 +346,7 @@ label.crbtn.pushed.disabled span i { box-shadow:; } /* inset 0 0 9px #ddd */
 /* case: active */
 label.crbtn.pushed span i { box-shadow: ; } /* inset 0 0 9px #25303c */
 ```
+
+## Translations
+* [العربية](doc/lang/ar.md)
+* [Русский](doc/lang/ru.md)
