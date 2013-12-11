@@ -32,7 +32,7 @@ Custom checkbox and radio buttons v2.
       * [Checked Disabled](#checked-disabled-1)
       * [All in one block](#all-in-one-block-1)
   * [Javascript](#javascript)
-* [Re-customize css your own way](#customize-css-your-own-way)  
+* [Re-customize css your own way](#re-customize-css-your-own-way)  
 
 ## Demo
 
@@ -268,3 +268,62 @@ JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 ```
 
 ## Re-customize css your own way
+
+> Note: You don't have to use `!important!`
+
+```css
+/*=== CHECKBOX ============================*/
+/* default */
+label.ccbx span { 
+    width: ;        /* 16px */
+    height: ;       /* 16px */
+    margin-right: ; /* 5px */
+    border-color: ; /* #ccc */
+}
+
+/* default:hover */
+label.ccbx:hover span { border-color: ; } /* #25303c */
+
+/* disabled */
+label.ccbx.disabled              { color: ; }            /* #ddd */
+label.ccbx.disabled span         { border-color: ; }     /* #ddd */
+label.ccbx.checked.disabled span { background-color: ; } /* #ddd */
+
+/* disabled:hover */
+label.ccbx.disabled:hover span   { border-color: ; } /* #ddd */
+
+/* active */
+label.ccbx.checked span { 
+    background-color: ; /* #25303c */
+    border-color: ;     /* #25303c */
+}
+
+/* checkmark */
+label.ccbx i {
+    background: ; /* url('') */
+    width: ;      /* 16px */
+    height: ;     /* 16px */
+}
+
+/*=== RADIOBUTTON =========================*/
+/* default */
+label.crbtn span {
+    width: ;  /* 17px */
+    height: ; /* 17px */
+    margin-right: ; /* 5px */
+    border-color: ; /* #ccc */
+}
+label.crbtn span i {
+    background-color: ; /* transparent */
+    width: ; /* 11px */
+    height: ; /* 11px */
+}
+
+/* disabled */
+label.crbtn.disabled               { color: ; } /* #ddd */
+label.crbtn.disabled span          { border-color: ; } /* #ddd */
+label.crbtn.pushed.disabled span i { box-shadow:; } /* inset 0 0 9px #ddd */
+
+/* active */
+label.crbtn.pushed span i { box-shadow: ; } /* inset 0 0 9px #25303c */
+```
