@@ -6,6 +6,33 @@ Custom checkbox and radio buttons v2.
 ---
 > v1 demo can be found [*here*](http://codepen.io/ElmahdiMahmoud/details/JFejy)
 
+
+----------
+
+
+
+## Table of contents
+
+* [Demo](#demo)
+* [Browser compatibility](#browser-compatibility)
+* [Plugin Structure](#plugin-structure)
+* [Getting Started](#getting-started)
+  * [Include required files `.css` and `.js`*](#include-css-and-js-files)
+  * [HTML](#html)
+    * [Checkbox options](#checkbox-options)
+      * [Default](#default)
+      * [Checked](#checked)
+      * [Disabled](#disabled)
+      * [Checked Disabled](#checked-disabled)
+      * [All in one block](#all-in-one-block)
+    * [Radio buttons options](#radio-buttons-options)
+      * [Default](#default-1)
+      * [Checked](#checked-1)
+      * [Disabled](#disabled-1)
+      * [Checked Disabled](#checked-disabled-1)
+      * [All in one block](#all-in-one-block-1)
+  * [Javascript](#javascript)
+
 ## Demo
 
 * [Full Demo](http://codepen.io/ElmahdiMahmoud/full/etvzG)
@@ -55,9 +82,7 @@ JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 <script src="assets/js/cf.min.js"></script> 
 ```
 
-## HTML
-
-### Checkbox options:
+### HTML checkbox options:
 
 ##### Default:
 ```html
@@ -144,7 +169,7 @@ JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 </form>
 ```
 
-### Radio buttons options:
+### HTML radio buttons options:
 
 ##### Default:
 ```html
@@ -232,11 +257,13 @@ JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 </form>
 ```
 
-### Javascript:
-```javascript
+##### Fire:
+```html
+<script>
 (function($) {
     $(document).ready(function() {
         $('.cf').cf();
     });
 })(jQuery);
+</script> 
 ```
