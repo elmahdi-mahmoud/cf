@@ -49,10 +49,10 @@ Custom checkbox and radio buttons v2.
 * Opera
 * IE8+
 
+Desktop:
 > OS tested on: Windows 7 , OS X Lion , Ubuntu.
 
-and
-
+Mobile phones:
 > Smartphones: Andriod, iPhone 5, Windows Phone.
 
 ### Plugin Structure
