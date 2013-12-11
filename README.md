@@ -55,7 +55,9 @@ JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 <script src="assets/js/cf.min.js"></script> 
 ```
 
-### HTML checkbox options:
+## HTML
+
+### Checkbox options:
 
 ##### Default:
 ```html
@@ -142,7 +144,7 @@ JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 </form>
 ```
 
-### HTML radio buttons options:
+## Radio buttons options:
 
 ##### Default:
 ```html
