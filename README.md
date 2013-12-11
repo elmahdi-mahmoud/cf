@@ -34,6 +34,7 @@ Custom checkbox and radio buttons v2.
   * [Javascript usage](#javascript)
 * [CSS: re-customize css your own way](#re-customize-css-your-own-way) 
 * [Translations](#translations)
+* [Authors](#authors) 
 * [License](#license)
 
 ## Demo
@@ -364,7 +365,7 @@ label.crbtn.pushed span i { box-shadow: ; } /* inset 0 0 9px #25303c */
 * [Русский](doc/lang/ru.md)
 
 ### Authors
-[@ElmahdiMahmoud](https://twitter.com/ElmahdiMahmoud) 
+* [@ElmahdiMahmoud](https://twitter.com/ElmahdiMahmoud)
 
 
 ### License
