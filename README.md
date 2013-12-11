@@ -34,6 +34,7 @@ Custom checkbox and radio buttons v2.
   * [Javascript usage](#javascript)
 * [Re-customize css your own way](#re-customize-css-your-own-way) 
 * [Translations](#translations)
+* [License](#license)
 
 ## Demo
 
@@ -350,3 +351,7 @@ label.crbtn.pushed span i { box-shadow: ; } /* inset 0 0 9px #25303c */
 ## Translations
 * [العربية](doc/lang/ar.md)
 * [Русский](doc/lang/ru.md)
+
+
+### License
+under MIT License - [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
