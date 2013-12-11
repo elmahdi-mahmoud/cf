@@ -50,6 +50,9 @@ Custom checkbox and radio buttons v2.
 * IE8+
 
 > OS tested on: Windows 7 , OS X Lion , Ubuntu.
+
+and
+
 > Smartphones: Andriod, iPhone 5, Windows Phone.
 
 ### Plugin Structure
