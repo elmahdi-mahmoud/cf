@@ -273,6 +273,9 @@ Required for customize implementation you have to include the following [stylesh
 <link rel="stylesheet" type="text/css" href="assets/css/custom-skin-cf.css"> 
 ```
 
+The `custom-skin-cf.css` contains an empty css rules, for `width` , `height` , `colors` , `margin` and `checkmark` so you can modify the way you like.
+
+
 ```css
 /*
  * The default value declared within a comment side to each property.
