@@ -42,14 +42,14 @@ cf/
 
 #### Include .css and .js files:
 
-##### CSS: `assets/css/cf.min.css` OR `assets/css/cf.css`
+CSS: `assets/css/cf.min.css` OR `assets/css/cf.css`
 ```html
 <!-- minified css version -->
 <link rel="stylesheet" type="text/css" href="assets/css/cf.min.css">
 <!-- Optional: customize css your own way -->
 <link rel="stylesheet" type="text/css" href="assets/css/custom-skin-cf.css"> 
 ```
-##### JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
+JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 ```html
 <!-- minified js version -->
 <script src="assets/js/cf.min.js"></script> 
