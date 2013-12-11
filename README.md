@@ -17,7 +17,7 @@ Custom checkbox and radio buttons v2.
 * [Browser compatibility](#browser-compatibility)
 * [Plugin Structure](#plugin-structure)
 * [Getting Started](#getting-started)
-  * [Include required files `.css` and `.js`](#include-css-and-js-files)
+  * [Include required files`](#include-required-files)
   * [HTML](#html)
     * [Checkbox options:](#checkbox-options)
       * [Default](#default)
@@ -76,16 +76,12 @@ You can clone with:
 2. SSH  : `git@github.com:elmahdi-mahmoud/cf.git`
 3. [Download Zip](https://github.com/elmahdi-mahmoud/cf/archive/master.zip)
 
-#### Include .css and .js files:
-
-CSS: `assets/css/cf.min.css` OR `assets/css/cf.css`
+#### Include required files:
 ```html
-<!-- minified css version -->
+<!-- CSS: `assets/css/cf.min.css` OR `assets/css/cf.css` -->
 <link rel="stylesheet" type="text/css" href="assets/css/cf.min.css">
-```
-JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
-```html
-<!-- minified js version -->
+
+<!-- JS:  `assets/js/cf.min.js` OR `assets/js/cf.js` -->
 <script src="assets/js/cf.min.js"></script> 
 ```
 > `disabled` and `checked` works just like html standards! NO *classes* or custom *attributes* required for both of checkboxs and radio buttons.
