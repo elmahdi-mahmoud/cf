@@ -49,7 +49,8 @@ Custom checkbox and radio buttons v2.
 * Opera
 * IE8+
 
-> OS tested on: Windows 7 , OS X Lion , Ubuntu
+> OS tested on: Windows 7 , OS X Lion , Ubuntu.
+> Smartphones: Andriod, iPhone 5, Windows Phone.
 
 ### Plugin Structure
 
