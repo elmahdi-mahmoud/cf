@@ -70,6 +70,12 @@ cf/
 
 ## Getting Started
 
+You can clone with:
+
+1. HTTPS: `https://github.com/elmahdi-mahmoud/cf.git`
+2. SSH  : `git@github.com:elmahdi-mahmoud/cf.git`
+3. [Download Zip](https://github.com/elmahdi-mahmoud/cf/archive/master.zip)
+
 #### Include .css and .js files:
 
 CSS: `assets/css/cf.min.css` OR `assets/css/cf.css`
