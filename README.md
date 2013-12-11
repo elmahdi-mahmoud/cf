@@ -1,7 +1,7 @@
 Custom checkbox and radio buttons v2.
 ===
 
-*Custom checkbox and radio button that really works v2 - lightweight jquery plugin. by [@ElmahdiMahmoud](https://twitter.com/ElmahdiMahmoud)*
+*Custom checkbox and radio button that really works v2 - lightweight jquery plugin. Authored by [@ElmahdiMahmoud](https://twitter.com/ElmahdiMahmoud)*
 
 ---
 > v1 demo can be found [*here*](http://codepen.io/ElmahdiMahmoud/details/JFejy)
@@ -34,7 +34,6 @@ Custom checkbox and radio buttons v2.
   * [Javascript usage](#javascript)
 * [CSS: re-customize css your own way](#re-customize-css-your-own-way) 
 * [Translations](#translations)
-* [Authors](#authors) 
 * [License](#license)
 
 ## Demo
@@ -363,9 +362,6 @@ label.crbtn.pushed span i { box-shadow: ; } /* inset 0 0 9px #25303c */
 ## Translations
 * [العربية](doc/lang/ar.md)
 * [Русский](doc/lang/ru.md)
-
-### Authors
-* [@ElmahdiMahmoud](https://twitter.com/ElmahdiMahmoud)
 
 
 ### License
