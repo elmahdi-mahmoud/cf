@@ -232,13 +232,11 @@ JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 </form>
 ```
 
-##### Fire:
-```html
-<script>
+### Javascript:
+```javascript
 (function($) {
     $(document).ready(function() {
         $('.cf').cf();
     });
 })(jQuery);
-</script> 
 ```
