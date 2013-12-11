@@ -144,7 +144,7 @@ JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 </form>
 ```
 
-## Radio buttons options:
+### Radio buttons options:
 
 ##### Default:
 ```html
