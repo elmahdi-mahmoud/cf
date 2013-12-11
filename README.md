@@ -82,8 +82,11 @@ JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 <!-- minified js version -->
 <script src="assets/js/cf.min.js"></script> 
 ```
+> `disabled` and `checked` works just like html standards! NO *classes* or custom *attributes* required for both of checkboxs and radio buttons.
 
 ### HTML checkbox options:
+
+> TODO: add class `ccbx` to `label` tag for custom checkbox.
 
 ##### Default:
 ```html
@@ -171,6 +174,8 @@ JS:  `assets/js/cf.min.js` OR `assets/js/cf.js`
 ```
 
 ### HTML radio buttons options:
+
+> TODO: add class `crbtn` to `label` tag for custom checkbox.
 
 ##### Default:
 ```html
