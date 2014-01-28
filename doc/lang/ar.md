@@ -361,7 +361,8 @@ label.crbtn.pushed span i { box-shadow: ; } /* inset 0 0 9px #25303c */
 ```
 
 ## Translations
-* [العربية](doc/lang/ar.md)
+* Arabic version translated by [@Se_Nadir](https://twitter.com/Se_Nadir)
+* [English](README.md)
 * [Русский](doc/lang/ru.md)
 
 
