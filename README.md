@@ -76,9 +76,9 @@ cf/
 
 You can clone with:
 
-1. HTTPS: `https://github.com/elmahdi-mahmoud/cf.git`
-2. SSH  : `git@github.com:elmahdi-mahmoud/cf.git`
-3. [Download Zip](https://github.com/elmahdi-mahmoud/cf/archive/master.zip)
+1. HTTPS: `https://github.com/elmahdim/cf.git`
+2. SSH  : `git@github.com:elmahdim/cf.git`
+3. [Download Zip](https://github.com/elmahdim/cf/archive/master.zip)
 
 #### Include required files:
 ```html
